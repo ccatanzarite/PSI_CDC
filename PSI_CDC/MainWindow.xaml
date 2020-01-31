@@ -5,8 +5,76 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PSI_CDC"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="PSI Calculator
+        " Height="450" Width="800">
     <Grid>
-        
+        <TextBlock x:Name="txtblkAge" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Age:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxAge" HorizontalAlignment="Left" Height="23" Margin="39,9,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="txtBlkSex" HorizontalAlignment="Left" Margin="10,37,0,0" TextWrapping="Wrap" Text="Sex:" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cboBoxSex" HorizontalAlignment="Left" Margin="39,37,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Male"/>
+            <ComboBoxItem Content="Female"/>
+        </ComboBox>
+        <TextBlock x:Name="txtblkNHR" HorizontalAlignment="Left" Margin="10,64,0,0" TextWrapping="Wrap" Text="Nursing Home Resident:" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxYesNHR" Content="Yes" HorizontalAlignment="Left" Margin="143,64,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxNoNHR" Content="No" HorizontalAlignment="Left" Margin="185,64,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtblkND" HorizontalAlignment="Left" Margin="10,85,0,0" TextWrapping="Wrap" Text="Neoplastic Disease:" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxYesND" Content="Yes" HorizontalAlignment="Left" Margin="143,85,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxNoND" Content="No" HorizontalAlignment="Left" Margin="185,85,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtblkLD" HorizontalAlignment="Left" Margin="10,106,0,0" TextWrapping="Wrap" Text="Liver Disease:" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxYesLD" Content="Yes" HorizontalAlignment="Left" Margin="143,106,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxNoLD" Content="No" HorizontalAlignment="Left" Margin="185,106,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtblkCHF" HorizontalAlignment="Left" Margin="10,127,0,0" TextWrapping="Wrap" Text="Congestive Heart Failure:" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxYesCHF" Content="Yes" HorizontalAlignment="Left" Margin="143,127,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxNoCHF" Content="No" HorizontalAlignment="Left" Margin="185,127,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtblkCD" HorizontalAlignment="Left" Margin="10,148,0,0" TextWrapping="Wrap" Text="Cerobrovascular Disease:" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxYesCD" Content="Yes" HorizontalAlignment="Left" Margin="143,148,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxNoCD" Content="No" HorizontalAlignment="Left" Margin="185,148,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtblkRD" HorizontalAlignment="Left" Margin="10,169,0,0" TextWrapping="Wrap" Text="Renal Disease:" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxYesRD" Content="Yes" HorizontalAlignment="Left" Margin="143,169,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxNoRD" Content="No" HorizontalAlignment="Left" Margin="185,169,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtblkAMS" HorizontalAlignment="Left" Margin="10,190,0,0" TextWrapping="Wrap" Text="Altered Mental State:" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxYesAMS" Content="Yes" HorizontalAlignment="Left" Margin="143,190,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxNoAMS" Content="No" HorizontalAlignment="Left" Margin="185,190,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtblkPE" HorizontalAlignment="Left" Margin="10,211,0,0" TextWrapping="Wrap" Text="Pleural Effusion on x-ray:" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxYesPE" Content="Yes" HorizontalAlignment="Left" Margin="143,211,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBoxNoPE" Content="No" HorizontalAlignment="Left" Margin="185,211,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtblkRR" HorizontalAlignment="Left" Margin="10,232,0,0" TextWrapping="Wrap" Text="Respiatory Rate (breaths/minute):" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtboxRR" HorizontalAlignment="Left" Height="23" Margin="192,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="txtblkSBP" HorizontalAlignment="Left" Margin="10,260,0,0" TextWrapping="Wrap" Text="Systolic Blood Pressure (mmHG):" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtboxSBP" HorizontalAlignment="Left" Height="23" Margin="192,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="txtblkTemp" HorizontalAlignment="Left" Margin="10,288,0,0" TextWrapping="Wrap" Text="Temperature:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtboxRR_Copy" HorizontalAlignment="Left" Height="23" Margin="84,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <RadioButton x:Name="rdoBtnCelsius" Content="Celsius" HorizontalAlignment="Left" Margin="209,292,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdoBtnFahren" Content="Fahrenheit" HorizontalAlignment="Left" Margin="270,292,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtblkPulse" HorizontalAlignment="Left" Margin="10,316,0,0" TextWrapping="Wrap" Text="Pulse (beats/minute):" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtboxRR_Copy1" HorizontalAlignment="Left" Height="23" Margin="126,315,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="txtblkpH" HorizontalAlignment="Left" Margin="10,344,0,0" TextWrapping="Wrap" Text="ph Level:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtboxRR_Copy2" HorizontalAlignment="Left" Height="23" Margin="62,343,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="txtblkBUN" HorizontalAlignment="Left" Margin="10,374,0,0" TextWrapping="Wrap" Text="BUN:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtboxBUN" HorizontalAlignment="Left" Height="23" Margin="42,371,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <RadioButton x:Name="rdoBtnmgdl" Content="mg/dl" HorizontalAlignment="Left" Margin="167,375,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdoBtnmmolL" Content="mmol/L" HorizontalAlignment="Left" Margin="223,375,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtblkSodium" HorizontalAlignment="Left" Margin="397,11,0,0" TextWrapping="Wrap" Text="Sodium (mmol/L):" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtboxSodium" HorizontalAlignment="Left" Height="23" Margin="497,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="txtblkGlucose" HorizontalAlignment="Left" Margin="397,40,0,0" TextWrapping="Wrap" Text="Glucose:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtboGlucose" HorizontalAlignment="Left" Height="23" Margin="446,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <RadioButton x:Name="rdoBtnGlumgdl" Content="mg/dl" HorizontalAlignment="Left" Margin="571,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.498,0.576"/>
+        <RadioButton x:Name="rdoBtnGlummolL" Content="mmol/L" HorizontalAlignment="Left" Margin="627,41,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtblkHem" HorizontalAlignment="Left" Margin="397,65,0,0" TextWrapping="Wrap" Text="Hematocrit(%):" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtboxHem" HorizontalAlignment="Left" Height="23" Margin="481,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="txtblkPP" HorizontalAlignment="Left" Margin="397,93,0,0" TextWrapping="Wrap" Text="Partial pressure of oxygen:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtboGlucose_Copy" HorizontalAlignment="Left" Height="23" Margin="541,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <RadioButton x:Name="rdoBtnPPmmHg" Content="mmHg" HorizontalAlignment="Left" Margin="666,94,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.498,0.576"/>
+        <RadioButton x:Name="rdoBtnPPkPa" Content="kPa" HorizontalAlignment="Left" Margin="722,94,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnCalcPsi" Content="Calculate PSI" HorizontalAlignment="Left" Margin="397,133,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnSaveData" Content="Save data" HorizontalAlignment="Left" Margin="497,133,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock x:Name="txtBlkRiskClass" HorizontalAlignment="Left" Margin="397,177,0,0" TextWrapping="Wrap" Text="Risk Class:" VerticalAlignment="Top"/>
+        <Rectangle x:Name="recRiskClass" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="20" Margin="455,177,0,0" Stroke="Black" VerticalAlignment="Top" Width="91"/>
+        <TextBlock x:Name="txtblkRiskClassResult" HorizontalAlignment="Left" Margin="473,177,0,0" TextWrapping="Wrap" Text="            " VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBlkAdmission" HorizontalAlignment="Left" Margin="397,214,0,0" TextWrapping="Wrap" Text="Admission Recommendation:" VerticalAlignment="Top"/>
+        <Rectangle x:Name="recAdmission" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="20" Margin="553,214,0,0" Stroke="Black" VerticalAlignment="Top" Width="230"/>
+        <TextBlock x:Name="txtblkAdmissionResult" HorizontalAlignment="Left" Margin="571,214,0,0" TextWrapping="Wrap" Text="            " VerticalAlignment="Top" Width="201"/>
+
     </Grid>
 </Window>

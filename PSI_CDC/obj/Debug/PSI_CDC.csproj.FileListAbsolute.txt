@@ -1,0 +1,14 @@
+C:\Bellarmine\CS-311\PSI_CDC\PSI_CDC\bin\Debug\PSI_CDC.exe.config
+C:\Bellarmine\CS-311\PSI_CDC\PSI_CDC\bin\Debug\PSI_CDC.exe
+C:\Bellarmine\CS-311\PSI_CDC\PSI_CDC\bin\Debug\PSI_CDC.pdb
+C:\Bellarmine\CS-311\PSI_CDC\PSI_CDC\obj\Debug\PSI_CDC.csprojAssemblyReference.cache
+C:\Bellarmine\CS-311\PSI_CDC\PSI_CDC\obj\Debug\MainWindow.g.cs
+C:\Bellarmine\CS-311\PSI_CDC\PSI_CDC\obj\Debug\App.g.cs
+C:\Bellarmine\CS-311\PSI_CDC\PSI_CDC\obj\Debug\PSI_CDC_MarkupCompile.cache
+C:\Bellarmine\CS-311\PSI_CDC\PSI_CDC\obj\Debug\PSI_CDC_MarkupCompile.lref
+C:\Bellarmine\CS-311\PSI_CDC\PSI_CDC\obj\Debug\MainWindow.baml
+C:\Bellarmine\CS-311\PSI_CDC\PSI_CDC\obj\Debug\PSI_CDC.g.resources
+C:\Bellarmine\CS-311\PSI_CDC\PSI_CDC\obj\Debug\PSI_CDC.Properties.Resources.resources
+C:\Bellarmine\CS-311\PSI_CDC\PSI_CDC\obj\Debug\PSI_CDC.csproj.GenerateResource.cache
+C:\Bellarmine\CS-311\PSI_CDC\PSI_CDC\obj\Debug\PSI_CDC.exe
+C:\Bellarmine\CS-311\PSI_CDC\PSI_CDC\obj\Debug\PSI_CDC.pdb
