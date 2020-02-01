@@ -39,35 +39,35 @@
         <TextBlock x:Name="txtblkPE" HorizontalAlignment="Left" Margin="10,211,0,0" TextWrapping="Wrap" Text="Pleural Effusion on x-ray:" VerticalAlignment="Top"/>
         <CheckBox x:Name="chkBoxYesPE" Content="Yes" HorizontalAlignment="Left" Margin="143,211,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="chkBoxNoPE" Content="No" HorizontalAlignment="Left" Margin="185,211,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="txtblkRR" HorizontalAlignment="Left" Margin="10,232,0,0" TextWrapping="Wrap" Text="Respiatory Rate (breaths/minute):" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtblkRR" HorizontalAlignment="Left" Margin="10,232,0,0" TextWrapping="Wrap" Text="Respiratory Rate (breaths/minute):" VerticalAlignment="Top"/>
         <TextBox x:Name="txtboxRR" HorizontalAlignment="Left" Height="23" Margin="192,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBlock x:Name="txtblkSBP" HorizontalAlignment="Left" Margin="10,260,0,0" TextWrapping="Wrap" Text="Systolic Blood Pressure (mmHG):" VerticalAlignment="Top"/>
         <TextBox x:Name="txtboxSBP" HorizontalAlignment="Left" Height="23" Margin="192,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBlock x:Name="txtblkTemp" HorizontalAlignment="Left" Margin="10,288,0,0" TextWrapping="Wrap" Text="Temperature:" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtboxRR_Copy" HorizontalAlignment="Left" Height="23" Margin="84,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <RadioButton x:Name="rdoBtnCelsius" Content="Celsius" HorizontalAlignment="Left" Margin="209,292,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="rdoBtnFahren" Content="Fahrenheit" HorizontalAlignment="Left" Margin="270,292,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtboxTemp" HorizontalAlignment="Left" Height="23" Margin="84,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <RadioButton x:Name="rdoBtnCelsius" Content="Celsius" HorizontalAlignment="Left" Margin="209,292,0,0" VerticalAlignment="Top" GroupName="temp"/>
+        <RadioButton x:Name="rdoBtnFahren" Content="Fahrenheit" HorizontalAlignment="Left" Margin="270,292,0,0" VerticalAlignment="Top" GroupName="temp"/>
         <TextBlock x:Name="txtblkPulse" HorizontalAlignment="Left" Margin="10,316,0,0" TextWrapping="Wrap" Text="Pulse (beats/minute):" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtboxRR_Copy1" HorizontalAlignment="Left" Height="23" Margin="126,315,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtboxPulse" HorizontalAlignment="Left" Height="23" Margin="126,315,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBlock x:Name="txtblkpH" HorizontalAlignment="Left" Margin="10,344,0,0" TextWrapping="Wrap" Text="ph Level:" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtboxRR_Copy2" HorizontalAlignment="Left" Height="23" Margin="62,343,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtboxpH" HorizontalAlignment="Left" Height="23" Margin="62,343,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBlock x:Name="txtblkBUN" HorizontalAlignment="Left" Margin="10,374,0,0" TextWrapping="Wrap" Text="BUN:" VerticalAlignment="Top"/>
         <TextBox x:Name="txtboxBUN" HorizontalAlignment="Left" Height="23" Margin="42,371,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <RadioButton x:Name="rdoBtnmgdl" Content="mg/dl" HorizontalAlignment="Left" Margin="167,375,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="rdoBtnmmolL" Content="mmol/L" HorizontalAlignment="Left" Margin="223,375,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdoBtnmgdl" Content="mg/dl" HorizontalAlignment="Left" Margin="167,375,0,0" VerticalAlignment="Top" GroupName="bun"/>
+        <RadioButton x:Name="rdoBtnmmolL" Content="mmol/L" HorizontalAlignment="Left" Margin="223,375,0,0" VerticalAlignment="Top" GroupName="bun"/>
         <TextBlock x:Name="txtblkSodium" HorizontalAlignment="Left" Margin="397,11,0,0" TextWrapping="Wrap" Text="Sodium (mmol/L):" VerticalAlignment="Top"/>
         <TextBox x:Name="txtboxSodium" HorizontalAlignment="Left" Height="23" Margin="497,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBlock x:Name="txtblkGlucose" HorizontalAlignment="Left" Margin="397,40,0,0" TextWrapping="Wrap" Text="Glucose:" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtboGlucose" HorizontalAlignment="Left" Height="23" Margin="446,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <RadioButton x:Name="rdoBtnGlumgdl" Content="mg/dl" HorizontalAlignment="Left" Margin="571,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.498,0.576"/>
-        <RadioButton x:Name="rdoBtnGlummolL" Content="mmol/L" HorizontalAlignment="Left" Margin="627,41,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtboxGlucose" HorizontalAlignment="Left" Height="23" Margin="446,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <RadioButton x:Name="rdoBtnGlumgdl" Content="mg/dl" HorizontalAlignment="Left" Margin="571,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.498,0.576" GroupName="glucose"/>
+        <RadioButton x:Name="rdoBtnGlummolL" Content="mmol/L" HorizontalAlignment="Left" Margin="627,41,0,0" VerticalAlignment="Top" GroupName="glucose"/>
         <TextBlock x:Name="txtblkHem" HorizontalAlignment="Left" Margin="397,65,0,0" TextWrapping="Wrap" Text="Hematocrit(%):" VerticalAlignment="Top"/>
         <TextBox x:Name="txtboxHem" HorizontalAlignment="Left" Height="23" Margin="481,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBlock x:Name="txtblkPP" HorizontalAlignment="Left" Margin="397,93,0,0" TextWrapping="Wrap" Text="Partial pressure of oxygen:" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtboGlucose_Copy" HorizontalAlignment="Left" Height="23" Margin="541,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <RadioButton x:Name="rdoBtnPPmmHg" Content="mmHg" HorizontalAlignment="Left" Margin="666,94,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.498,0.576"/>
-        <RadioButton x:Name="rdoBtnPPkPa" Content="kPa" HorizontalAlignment="Left" Margin="722,94,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnCalcPsi" Content="Calculate PSI" HorizontalAlignment="Left" Margin="397,133,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="txtboxPPOO" HorizontalAlignment="Left" Height="23" Margin="541,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <RadioButton x:Name="rdoBtnPPmmHg" Content="mmHg" HorizontalAlignment="Left" Margin="666,94,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.498,0.576" GroupName="pressure"/>
+        <RadioButton x:Name="rdoBtnPPkPa" Content="kPa" HorizontalAlignment="Left" Margin="722,94,0,0" VerticalAlignment="Top" GroupName="pressure"/>
+        <Button x:Name="btnCalcPsi" Content="Calculate PSI" HorizontalAlignment="Left" Margin="397,133,0,0" VerticalAlignment="Top" Width="75" Click="btnCalcPsi_Click"/>
         <Button x:Name="btnSaveData" Content="Save data" HorizontalAlignment="Left" Margin="497,133,0,0" VerticalAlignment="Top" Width="75"/>
         <TextBlock x:Name="txtBlkRiskClass" HorizontalAlignment="Left" Margin="397,177,0,0" TextWrapping="Wrap" Text="Risk Class:" VerticalAlignment="Top"/>
         <Rectangle x:Name="recRiskClass" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="20" Margin="455,177,0,0" Stroke="Black" VerticalAlignment="Top" Width="91"/>
