@@ -68,7 +68,7 @@
         <RadioButton x:Name="rdoBtnPPmmHg" Content="mmHg" HorizontalAlignment="Left" Margin="666,94,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.498,0.576" GroupName="pressure"/>
         <RadioButton x:Name="rdoBtnPPkPa" Content="kPa" HorizontalAlignment="Left" Margin="722,94,0,0" VerticalAlignment="Top" GroupName="pressure"/>
         <Button x:Name="btnCalcPsi" Content="Calculate PSI" HorizontalAlignment="Left" Margin="397,133,0,0" VerticalAlignment="Top" Width="75" Click="btnCalcPsi_Click"/>
-        <Button x:Name="btnSaveData" Content="Save data" HorizontalAlignment="Left" Margin="497,133,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnSaveData" Content="Save data" HorizontalAlignment="Left" Margin="497,133,0,0" VerticalAlignment="Top" Width="75" Click="btnSaveData_Click"/>
         <TextBlock x:Name="txtBlkRiskClass" HorizontalAlignment="Left" Margin="397,177,0,0" TextWrapping="Wrap" Text="Risk Class:" VerticalAlignment="Top"/>
         <Rectangle x:Name="recRiskClass" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="20" Margin="455,177,0,0" Stroke="Black" VerticalAlignment="Top" Width="91"/>
         <TextBlock x:Name="txtblkRiskClassResult" HorizontalAlignment="Left" Margin="473,177,0,0" TextWrapping="Wrap" Text="            " VerticalAlignment="Top"/>
